@@ -7,6 +7,7 @@ const InputComponent = ({ label, type, placeholder, onChange }) => {
         placeholder={placeholder}
         className="w-full p-2 border border-gray-300 rounded-md"
         onChange={onChange}
+        required
       />
     </>
   );
