@@ -1,9 +1,7 @@
+import FormPage from "./pages/form-page";
+
 const App = () => {
-  return (
-    <>
-      <h1>App</h1>
-    </>
-  );
+  return <FormPage />;
 };
 
 export default App;
