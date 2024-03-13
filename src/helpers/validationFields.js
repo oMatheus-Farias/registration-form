@@ -1,8 +1,10 @@
+import { toast } from "react-toastify";
+
 export const validationFields = (fields) => {
   const fieldsIsValid = fields.some((field) => field === "");
 
   if (fieldsIsValid) {
-    alert("Preencha todos os campos");
+    toast.error("Preencha todos os campos!");
     return false;
   }
 
